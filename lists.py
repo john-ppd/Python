@@ -65,4 +65,15 @@ print(array1)
 array1.sort()
 print(array1)
 
+#SORT LIST high->low
+array1.reverse()
+array2.reverse()
+print(array1)
+print(array2)
+
+#copy lists, will get all attributes of other list
+array3 = array1.copy()
+print("array 3")
+print(array3)
+
 
