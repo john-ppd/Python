@@ -32,3 +32,8 @@ print(newVar.index("ing")) #locates where "ing" starst in the char array (locati
 newVar = "hi"
 print(newVar.replace("hi", "b  y  e") )
 print("tester")
+
+#PRINT String and Numbers same line
+numbers = 123
+string = "hi there"
+print(str(numbers) + string)
