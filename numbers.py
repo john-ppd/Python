@@ -1,3 +1,8 @@
+#imports are need for some math function
+#Imports are called modules, can find online
+from math import *
+
+
 #We don't need to use a variable type and the variable will support all types, float, double, and other.
 
 x = 50
@@ -21,4 +26,21 @@ print(abs(my_num))
 
 #raised to the power of (pow(variable, power_as_int)), works with negatives
 print(pow((my_num), 2))
+
+#MAX number, max(4,5,6) would print out 6
+#MIN number, min(4,6,10) would print out 4
+print(max(4,5,6))
+print(min(4,6,10))
+
+#ROUND function, rounds standard rounding, round(3.51) will print out 4, round(3.49) will output 3
+print(round(3.51))
+print(round(3.49))
+
+#FLOOR function need math import, it chops off the decimal (rounds down)
+#CEIL rounds up
+print(floor(3.98))
+print(ceil(3.01))
+
+#SQRT
+print(sqrt(25))
 
