@@ -9,6 +9,8 @@ def translate(phrase):
       #in checks to see if the value i is within the string, in this case the value i is one of characters from the string and checks to see if that charcter is a vowel, uses for loops and if statements are slightly different. The loop loops throgh the range. and the if statement will check the entire comparasin of the string to the current character before moving on.
 
       #i.lower() makes the string inputted go to all lower values and now we only need to check them and no cap values.
+
+      #will return TRUE if i.lower() is IN the comparison string
       if i.lower() in "aeiou":
           translation = translation + "g"
       else:
@@ -16,3 +18,10 @@ def translate(phrase):
     return translation
 
 print(translate(input("enter a phrase")))
+
+
+x = ["apple", "banana"]
+
+print("banana" in x)
+
+# returns True because a sequence with the value "banana" is in the list, in this case we are checking if banana is in x
