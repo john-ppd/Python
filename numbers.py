@@ -44,3 +44,16 @@ print(ceil(3.01))
 #SQRT
 print(sqrt(25))
 
+#EXPONENTS, 2**3 means 2^3
+x = 2**3
+print(x)
+
+#using a function to raise to powers
+def raise_to_power(input, exponent):
+    result = 1 #must be tabbed!
+    for x in range(exponent):
+        result *= input
+    return result
+
+print(raise_to_power(3,3))
+
