@@ -14,7 +14,6 @@ multisim_and_component_and_hardware = 2
 physics_2 = 2
 trading_and_charts = 1
 matlab = 1
-global totalweight
 arraylist = []
 
 def fillarray(itemname, times_to_loop):
@@ -39,7 +38,7 @@ fillarray("physics_2",physics_2)
 fillarray("trading_and_charts",trading_and_charts)
 fillarray("matlab",matlab)
 
-print(arraylist)
+#print(arraylist)
 
 def pickone():
    numberchosen = random.randint(0,len(arraylist))
