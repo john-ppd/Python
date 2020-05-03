@@ -1,0 +1,6 @@
+color_1 red
+color_2 blue
+color_3 green
+color_4 orange
+color_5 magenta
+color_5 magenta
