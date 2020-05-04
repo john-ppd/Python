@@ -9,4 +9,5 @@ mychef1.cook_fish()
 mychef2 = inheritance_chef2.Chef2()
 mychef2.cook_rice()
 mychef2.cook_fish()
+mychef2.cook_meat()
 
